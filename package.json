@@ -1,0 +1,32 @@
+{
+  "name": "@andrevargas/eslint-config-react",
+  "version": "0.0.1",
+  "description": "My ESLint config for React projects",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "react"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/andrevargas/eslint-config-react.git",
+  "author": "André Vargas <andrelv510@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5",
+    "prettier": ">=1"
+  }
+}
